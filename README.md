@@ -1,3 +1,5 @@
+https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/jdbc.html
+
 CREATE TABLE users
 (
 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,

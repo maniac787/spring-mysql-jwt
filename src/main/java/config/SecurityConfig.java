@@ -38,6 +38,7 @@ public class SecurityConfig {
                 .authorizeRequests()
                 .antMatchers(HttpMethod.POST, "/contactos").hasAnyRole("ADMIN")
                 .antMatchers("/contactos").authenticated()
+                .antMatchers("/api-docs").permitAll()
                 .and()
                 .addFilter(new JWTAuthorizationFilter(auth));
         return http.build();

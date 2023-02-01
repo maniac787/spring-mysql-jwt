@@ -1,4 +1,4 @@
-package inicio;
+package config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
